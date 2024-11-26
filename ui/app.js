@@ -14,7 +14,7 @@ async function vendors(){
             vendorCard.className = 'card card-body mt-3';
 
             const vendorTitle = document.createElement('h5');
-            vendorTitle.innerText = `Vendor: ${vendor.vendor_name}`;
+            vendorTitle.innerText = vendor.vendor_name;
             vendorCard.appendChild(vendorTitle);
 
             const button = document.createElement('button');
