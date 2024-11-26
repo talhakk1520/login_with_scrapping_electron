@@ -56,7 +56,7 @@ async function vendors(){
         });
     } catch (error) {
         console.error(error);
-        showText.innerText = `Error initializing vendors: ${error.message}`;
+        showText.innerText = `Error: ${error.message}`;
     }
 }
 
