@@ -1,0 +1,21 @@
+{
+  "name": "login_with_scrapping_electron",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "electron": "^33.2.0"
+  },
+  "dependencies": {
+    "electron-reload": "^2.0.0-alpha.1",
+    "promise-mysql": "^5.2.0",
+    "selenium-webdriver": "^4.26.0"
+  }
+}
