@@ -46,7 +46,7 @@ async function vendors(){
 
                     showText.innerText = `Successfully logged into ${vendor.vendor_name}.`;
                 } catch (error) {
-                    console.error(error);
+                    console.log(error);
                     showText.innerText = `Error logging into ${vendor.vendor_name}: ${error.message}`;
                 }
             });
@@ -55,7 +55,7 @@ async function vendors(){
             formContainer.appendChild(vendorCard);
         });
     } catch (error) {
-        console.error(error);
+        console.log(error);
         showText.innerText = `Error: ${error.message}`;
     }
 }
